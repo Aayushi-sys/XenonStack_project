@@ -1,0 +1,122 @@
+.sign-heading {
+  
+  color: #ddd;
+
+}
+
+.advice {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+} 
+ 
+.main-sign {
+  width: 95%; 
+  margin: 0 auto;
+  height: fit-content;
+  background-color: rgb(32, 32, 31);
+  border-radius: 30px;
+  margin-top: 40px;
+  display: flex;
+  padding: 20px 20px 15px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-img-div {
+  width: 700px;
+  height: 700px;
+  /* background-color: bisque; */
+  margin:-50px 20px 0px 10px;
+}
+
+.sign-img {
+  height: 100%;
+  width: 100%;
+}
+
+.form-div {
+  
+  /* text-align: center; */
+  width: 500px;
+  z-index: 10;
+}
+
+.form-inline {
+  display: inline;
+  flex-flow: row wrap;
+  /* align-items: center; */
+  
+}
+
+
+.form-inline label {
+  margin: 1px 10px 5px 0;
+  color: white;
+  /* display: flex; */
+  position: relative;
+  margin-left: 0px;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.imp {
+  font-size: 18px;
+  color: rgb(152, 43, 224);
+
+}
+
+.inp {
+  outline: none;
+  border-radius: 3px;
+}
+
+.error {
+  color:red;
+height: 10px;
+margin-bottom: 10px;
+  /* display: flex; */
+}
+
+/* mobile */
+
+@media(max-width:750px) {
+  .main-sign {
+    display: inline;
+  }
+
+  .form-div {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .sign-img-div {
+    margin-top: 150px;
+    width: 90%;
+    height: 50%;
+  }
+ 
+  .sign-heading {
+    position: static;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+.alt-auth{
+  color:#ddd;
+  width: 100%;
+  text-align: center;
+}
+.g-auth{
+  width: fit-content;
+  margin: 0 auto;
+}
